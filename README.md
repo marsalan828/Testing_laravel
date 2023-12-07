@@ -3,22 +3,20 @@
 
 
 ## About This Laravel Repo
-This is basic laravel framework built with testing purpose.
-1- Install composer. 
-2- Create Laravel project.
-    terminal command: composer create-project laravel/laravel projectName
-3- Configure database.
-    Create tables and their Schema
-4- Run migrations.
-    Terminal command: php artisan migrate
-    This updates changes made in file
-    Now create a seeder a seeder file
-    Terminal command: php artisan make:seeder seederFileName
-5- Create models and controllers.
-    Terminal command: php artisan make:controller controllerFileName
-    Terminal command: php artisan make:model modelFileName
-6- Define web.php routes.
-    View Route is defined here 
-7- Create views in vue js.
-8- Run a local server 
-    Apache2 server is running on localhost.
+<ol>
+    <li>
+        <p>This is basic Laravel framework built with testing purpose.</p>
+    </li>
+    <li>Install composer.</li>
+    <li>Create Laravel project.</li>
+    <p>Terminal command: <code>composer create-project laravel/laravel projectName</code></p>
+    <li>Configure database.</li>
+    <p>Create tables and their Schema</p>
+    <li>Run migrations.</li>
+    <p>Terminal command: <code>php artisan migrate</code></p>
+    <p>This updates changes made in the file</p>
+    <p>Now create a seeder file</p>
+    <p>Terminal command: <code>php artisan make:seeder seederFileName</code></p>
+    <li>Create models and controllers.</li>
+    <p>Terminal command: <code>php artisan make:controller controllerFileName</code></p>
+    <p>Terminal command: <code>php artisan make:model modelFileName
